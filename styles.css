@@ -251,16 +251,14 @@ nav li {
     padding-left: 24px; /* Adjust spacing for smaller screens */
 }
 
-#main-content img {
-    width: 200px; /* Adjust image size for smaller screens */
-}
+
 
 #main-content h3{
-    font-size: 22px; /* Adjust text size for smaller screens */
+    font-size: 23px; /* Adjust text size for smaller screens */
     margin-left: 10px; /* Adjust margin for smaller screens */
 }
 #main-content p {
-    font-size: 10px; /* Adjust text size for smaller screens */
+    font-size: 14px; /* Adjust text size for smaller screens */
     margin-left: 10px; /* Adjust margin for smaller screens */
 }
 
@@ -272,11 +270,12 @@ nav li {
 }
 
 #main-content img{
-    width: 115px;
-    padding-left: 20px;
+    width: 125px;
+   
 }
 
 
 }
+
 
 
