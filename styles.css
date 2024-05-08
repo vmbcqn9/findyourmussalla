@@ -248,7 +248,7 @@ nav li {
 
 #sub-mc {
     padding-top: 20px; /* Adjust spacing for smaller screens */
-    padding-left: 50px; /* Adjust spacing for smaller screens */
+    padding-left: 24px; /* Adjust spacing for smaller screens */
 }
 
 #main-content img {
@@ -256,7 +256,7 @@ nav li {
 }
 
 #main-content h3{
-    font-size: 20px; /* Adjust text size for smaller screens */
+    font-size: 22px; /* Adjust text size for smaller screens */
     margin-left: 10px; /* Adjust margin for smaller screens */
 }
 #main-content p {
@@ -272,7 +272,8 @@ nav li {
 }
 
 #main-content img{
-    width:100px
+    width: 115px;
+    padding-left: 20px;
 }
 
 
