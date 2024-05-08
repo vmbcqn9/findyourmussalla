@@ -9,6 +9,7 @@ icons.addEventListener("click", () => {
     icons.classList.toggle('actived');
     nav.classList.toggle('active');
     bn.classList.toggle('active');
+    bn2.classList.toggle('active');
 
     // Toggle body scrolling
     body.classList.toggle("no-scroll");
@@ -48,6 +49,7 @@ links.forEach((link) => {
         nav.classList.remove("active");
         icons.classList.remove('actived');
         bn.classList.remove('actived');
+        bn2.classList.remove('actived');
         body.classList.remove("no-scroll");
         html.classList.remove("no-scroll")
 
