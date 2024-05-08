@@ -110,6 +110,62 @@ nav li {
     font-size: 25px;
 }
 
+/****************** Maincontent ******************/
+
+
+#main-content {
+    padding: 20px;
+    background-color: #fdc621;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+
+#sub-mc {
+   position: relative;
+}
+
+#main-content h3 {
+    font-size: 50px;
+    color: white;
+    margin-left: 20px; /* Add margin for spacing */
+    font-family: "Futura";
+}
+
+#main-content p {
+    font-size: medium;
+    color: white;
+    margin-left: 20px; /* Add margin for spacing */
+    font-family: "Futura";
+}
+
+#main-content img {
+    width: 250px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+#sub-mc {
+    display: inline-block;
+    padding-top: 50px;
+    padding-left: 150px;
+}
+
+#bn {
+    padding-top: 80px;
+    padding-left: 15px;
+    width: 150px;
+    height: 50px;
+  }
+
+
+
+
+
+/****************** MediaScreen ******************/
+
 @media (max-width:900px){
     #icons{
         display: block;
@@ -186,58 +242,40 @@ nav li {
     display: none;
 }
 
-}
-
-
-
 #main-content {
-  
-    padding: 20px;
-    background-color: #fdc621;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
+    padding: 10px; /* Adjust padding for smaller screens */
 }
-
-
 
 #sub-mc {
-   position: relative;
-    z-index: 1; /* Ensure the text is above the circle */
-}
-
-#main-content h3 {
-    font-size: 50px;
-    color: white;
-    margin-left: 20px; /* Add margin for spacing */
-    font-family: "Futura";
-}
-
-#main-content p {
-    font-size: medium;
-    color: white;
-    margin-left: 20px; /* Add margin for spacing */
-    font-family: "Futura";
+    padding-top: 20px; /* Adjust spacing for smaller screens */
+    padding-left: 50px; /* Adjust spacing for smaller screens */
 }
 
 #main-content img {
-    width: 250px; /* Adjust width as needed */
-    height: auto; /* Maintain aspect ratio */
+    width: 200px; /* Adjust image size for smaller screens */
 }
 
-
-#sub-mc {
-    display: inline-block;
-    padding-top: 50px;
-    padding-left: 150px;
+#main-content h3{
+    font-size: 20px; /* Adjust text size for smaller screens */
+    margin-left: 10px; /* Adjust margin for smaller screens */
+}
+#main-content p {
+    font-size: 10px; /* Adjust text size for smaller screens */
+    margin-left: 10px; /* Adjust margin for smaller screens */
 }
 
 #bn {
-    padding-top: 80px;
-    padding-left: 15px;
-    width: 150px;
-    height: 50px;
-  }
+    padding-top: 20px; /* Adjust spacing for smaller screens */
+    padding-left: 10px; /* Adjust spacing for smaller screens */
+    width: 120px; /* Adjust button size for smaller screens */
+    height: 40px; /* Adjust button size for smaller screens */
+}
 
+#main-content img{
+    width:100px
+}
+
+
+}
 
 
