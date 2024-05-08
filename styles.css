@@ -152,13 +152,50 @@ nav li {
     padding-top: 50px;
     padding-left: 150px;
 }
-
+#subi{
+    display: grid;
+}
 #bn {
     padding-top: 80px;
     padding-left: 15px;
     width: 150px;
     height: 50px;
   }
+
+  #bn2 {
+    padding-top: 30px;
+    padding-left: 15px;
+    width: 150px;
+    height: 50px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -241,6 +278,9 @@ nav li {
     #bn.active{
     display: none;
 }
+#bn2.active{
+    display: none;
+}
 
 #main-content {
     padding: 10px; /* Adjust padding for smaller screens */
@@ -258,11 +298,11 @@ nav li {
     margin-left: 10px; /* Adjust margin for smaller screens */
 }
 #main-content p {
-    font-size: 12px; /* Adjust text size for smaller screens */
+    font-size: 14px; /* Adjust text size for smaller screens */
     margin-left: 10px; /* Adjust margin for smaller screens */
 }
 
-#bn {
+#bn, #bn2 {
     padding-top: 20px; /* Adjust spacing for smaller screens */
     padding-left: 10px; /* Adjust spacing for smaller screens */
     width: 120px; /* Adjust button size for smaller screens */
@@ -276,6 +316,5 @@ nav li {
 
 
 }
-
 
 
