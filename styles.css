@@ -169,31 +169,128 @@ nav li {
     height: 50px;
   }
 
+  /*************** 1 *******************/
+  
+  #Rprem{
+    padding: 30px;
+    padding-top: 70px;
+  }
+
+#Rprem h2{
+    color: purple;
+    font-family: "Futura";
+    padding-bottom: 15px;
+    font-size: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrer le contenu horizontalement */
+    
+}
+
+#Rprem p{
+    padding: 10px;
+    font-family: "Avenir";
+    font-size: 17px;
+}
 
 
+#Rprem a {
+    color: purple;
+}
+
+#Rprem a:hover {
+    text-decoration: underline;
+    color: purple;
+}
+
+  /*************** 2 *******************/
+  
+  #prem{
+    padding: 30px;
+    padding-top: 130px;
+    overflow: hidden; /* Clear floats */
+  }
+
+#prem h2{
+    color: purple;
+    font-family: "Futura";
+    padding-bottom: 15px;
+    font-size: 24px;
+}
+
+#prem p{
+    padding: 10px;
+    font-family: "Avenir";
+    font-size: 17px;
+}
 
 
+.content {
+    float: left; /* Float the content to the left */
+    width: 50%; /* Adjust the width as needed */
+}
+
+.img1 {
+    width: 300px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.titre2{
+    padding-top: 70px;
+}
 
 
+/***************** FOOTER ******************/
+footer {
+    background-color: rgb(119, 68, 119); /* Background color for the footer */
+    color: #fff; /* Text color */
+    padding: 20px; /* Spacing around the content */
+    text-align: center; /* Center-align the content */
+    margin-top: -0.5%;
+}
 
+/* Style for the contact information */
+.contact-info {
+    font-size: 18px; /* Font size for contact information */
+    font-family: "Futura";
+    color: white;
+}
 
+/* Style for the email link */
+.contact-info a {
+    color: #fff; /* Link text color */
+    text-decoration: none; /* Remove underlines from links */
+}
+.contact-info a:hover {
+    color: #007bff(176, 176, 231); /* Link text color */
+    text-decoration: underline; /* Remove underlines from links */
+}
 
+/* Style for social media links */
+.social-media {
+    margin-top: 20px; /* Spacing above social media icons */
+}
 
+/* Style for individual social media icons */
+.social-icon {
+    display: inline-block; /* Display icons in a row */
+    margin: 0 10px; /* Spacing between icons */
+    font-size: 24px; 
+    text-decoration: none; /* Remove underlines from icons */
+    color: white; 
+}
 
+/* Style for the copyright notice */
+.copyright {
+    margin-top: 20px; /* Spacing above the copyright notice */
+    font-size: 14px; /* Font size for copyright text */
+}
 
+/* Style for hover effect on social media icons (change color on hover) */
 
-
-
-
-
-
-
-
-
-
-
-
-
+.social-icon:hover {
+    color: black;
+}
 
 
 
