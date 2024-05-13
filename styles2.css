@@ -1,0 +1,318 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body,html {
+    overflow-x:hidden;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    
+    }
+
+html.no-scroll {
+        overflow: hidden !important; 
+        text-decoration: none;
+        scroll-behavior: smooth;
+    }
+
+body.no-scroll {
+    overflow: hidden !important; 
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+/***************** NAVBAR ******************/
+.logo{
+   height:160px;
+   width:auto;
+}
+
+
+li{
+    list-style: none;
+   
+}
+
+nav a,
+nav a:visited{
+    color:purple;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+}
+
+a:hover{
+   text-decoration: underline;
+   transition: 0.5s;
+   color: rgb(67, 0, 67);
+}
+
+.ajouter{
+    text-decoration: underline;
+}
+
+#download{
+    background-color: purple;
+    border-radius:8px ;
+    border: 4px purple;
+    color:white;
+    font-size: 18px;
+    padding: 3px;
+}
+
+#download:hover{
+    background-color: white;
+    border-radius:8px ;
+    color:purple;
+    font-size: 18px;
+    text-decoration: none;
+    transition: 500ms;
+
+}
+
+nav {
+    position: sticky; /* Make the header sticky */
+    top: 0; /* Stick to the top of the viewport */
+    background:#ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 10px;
+    font-size: 20px;
+    font-family: "Futura" ;
+    color:purple;
+}
+
+nav h3 {
+    font-size: 24px; /* Adjust the default font size as needed */
+    color:purple
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0;
+
+}
+
+nav li {
+    padding: 3px 45px; /* Adjust the second value (right/left padding) as needed */
+}
+
+ #num{
+    display: none;
+    cursor:pointer;
+}
+
+
+
+#icons{
+    cursor:pointer;
+    display: none;
+    z-index: 10;
+    font-size: 25px;
+}
+
+/************************ texte 1 **********/
+
+#texte{
+    background:rgb(136, 78, 136);
+}
+
+#texte p{
+    max-width: 600px;
+    margin: 0 auto;
+    color: #ffffff;
+    font-family: "avenir";
+    padding: 20px;
+}
+
+
+
+/************************ FORMULAIRE **************************/
+
+/* Style for the form container */
+#formulaire {
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: "Futura";
+    padding-top: 50px;
+  }
+  
+  /* Style for text inputs */
+  input ,
+  select,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Style for radio buttons and checkboxes */
+  input[type="radio"],
+  input[type="checkbox"] {
+    width: 50%;
+    float: right;
+    }
+  
+  /* Style for form labels */
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: black;
+    font-family: Avenir;
+  }
+  
+  /* Style for the submit button */
+  input[type="submit"] {
+    background-color: purple;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #fdc261;
+  }
+  
+  
+  /* Style for the legend */
+  legend {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+ #inforesp{
+    margin-bottom: 25px;
+ }
+  
+
+
+.tacbox {
+    display:flex;
+    padding: 1em;
+    margin-bottom: 2em;
+    border: 3px solid #ddd;
+    background-color: #eee;
+    max-width: 800px;
+  }
+  
+  .tacbox input {
+    height: 2em;
+    width: 2em;
+    margin-right: 17px;
+  }
+
+
+
+
+h3{
+    font-family: "Futura";
+    color : purple;
+}
+
+
+p{
+    font-family: "Avenir";
+}
+
+
+
+.qst {
+    display: block ruby;
+    align-items: center; /* Align radio button containers vertically */
+}
+
+/* Style for radio buttons */
+.qst input[type="radio"] {
+    margin-right: 10px; /* Add some space between radio buttons */
+    vertical-align: middle; /* Align radio buttons vertically to the middle */
+}
+
+
+p{
+    font-weight: bold;
+}
+
+
+
+/****************** MediaScreen ******************/
+
+@media (max-width:900px){
+    #icons{
+        display: block;
+    }
+    #icons:before{
+        content:"\2630" ;
+    }
+    #icons.actived::before {
+        content: "\2715"; /* Cross icon */
+       
+    }
+    
+    #num.activ{
+        display: block;
+
+    }
+
+    
+    nav{
+        height:80px;
+    }
+
+    nav h3{
+        font-size: 21px;
+    }
+  
+
+    nav ul{
+        position: fixed;
+        left: -100%;
+        top:0;
+        flex-direction: column;
+        background: white;
+        width: 100%;
+        height:100%;
+        text-align: center;
+        transition: 0.25s;
+        justify-content: center;
+       
+    }
+    nav ul.active {
+        left: 0;
+    }
+    nav li{
+        padding: 10px 0;
+        
+    }
+    nav li:hover{
+        background: purple;
+    }
+    nav a :hover{
+        color: white;
+    }
+    nav.active ul{
+        left:0;
+
+    }
+    nav{
+        font-size: 23px;
+    }
+
+    nav a,
+    nav a:visited, nav p{
+        color: purple;
+    }
+
+    #download{
+        background-color: white;
+        color: purple;
+        font-size: 23px;
+    }
+}
