@@ -207,7 +207,7 @@ nav li {
   
   #prem{
     padding: 30px;
-    padding-top: 130px;
+    padding-top: 120px;
     overflow: hidden; /* Clear floats */
   }
 
@@ -228,6 +228,7 @@ nav li {
 .content {
     float: left; /* Float the content to the left */
     width: 50%; /* Adjust the width as needed */
+    padding-top: 25px;
 }
 
 .img1 {
@@ -347,12 +348,7 @@ footer {
         padding: 10px 0;
         
     }
-    nav li:hover{
-        background: purple;
-    }
-    nav a :hover{
-        color: white;
-    }
+    
     nav.active ul{
         left:0;
 
@@ -370,6 +366,17 @@ footer {
         background-color: white;
         color: purple;
         font-size: 23px;
+    }
+
+    #download:hover{
+        background-color: white;
+        border-radius:8px ;
+        color:purple;
+        font-size: 23px;
+        text-decoration:underline;
+        transition: 0ms;
+        border-color: purple;
+    
     }
     
     #bn.active{
@@ -409,6 +416,44 @@ footer {
 #main-content img{
     width: 125px;
    
+}
+
+#Rprem h2{
+    font-size:22px;
+    padding: 10px;
+}
+
+#Rprem span{
+    display: none;
+}
+
+.content{
+    float: none;
+    width: 100%;
+}
+
+#prem{
+    padding-top: 0px;
+    margin-top: 75px;
+}
+
+#prem h2{
+    padding-left:10px;
+}
+#prem img{
+    width:152px;
+    margin-top: 30px;
+    padding-left: 6px;
+}
+
+
+.titles{
+    text-decoration:none;
+    text-transform: none;
+}
+
+.titles:hover{
+    text-decoration: none;
 }
 
 
