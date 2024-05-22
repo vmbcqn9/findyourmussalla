@@ -243,7 +243,7 @@ p{
 
 /* Style for radio buttons */
 .qst input[type="radio"] {
-    margin-right: 10px; /* Add some space between radio buttons */
+    
     vertical-align: middle; /* Align radio buttons vertically to the middle */
 }
 
@@ -348,8 +348,8 @@ p{
         text-decoration: none;
     }
 
-    .qst{
-        display: flex;
-    }
+   
+
+    
     
 }
