@@ -114,6 +114,18 @@ nav li {
     font-size: 25px;
 }
 
+
+.titles{
+    text-decoration:none;
+    text-transform: none;
+}
+
+.titles:hover{
+    text-decoration: none;
+}
+
+
+
 /************************ texte 1 **********/
 
 #texte{
@@ -241,7 +253,6 @@ p{
 }
 
 
-
 /****************** MediaScreen ******************/
 
 @media (max-width:900px){
@@ -291,12 +302,7 @@ p{
         padding: 10px 0;
         
     }
-    nav li:hover{
-        background: purple;
-    }
-    nav a :hover{
-        color: white;
-    }
+   
     nav.active ul{
         left:0;
 
@@ -315,4 +321,31 @@ p{
         color: purple;
         font-size: 23px;
     }
+
+    #download:hover{
+        background-color: white;
+        border-radius:8px ;
+        color:purple;
+        font-size: 23px;
+        text-decoration:underline;
+        transition: 0ms;
+        border-color: purple;
+    
+    }
+
+    #formulaire{
+        padding: 20px;
+    }
+
+
+
+    .titles{
+        text-decoration:none;
+        text-transform: none;
+    }
+    
+    .titles:hover{
+        text-decoration: none;
+    }
+    
 }
