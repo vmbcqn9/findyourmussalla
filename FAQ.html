@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles3.css">
+
+    <title>FYM -Questions fréquentes</title>
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const items = document.querySelectorAll(".faq-item h3");
+            items.forEach(item => {
+                item.addEventListener("click", () => {
+                    const content = item.nextElementSibling;
+                    if (content.style.display === "none" || !content.style.display) {
+                        content.style.display = "block";
+                    } else {
+                        content.style.display = "none";
+                    }
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+
+    <nav id="nav">
+        <a href="index.html" class="titles"><h3>FindYourMussalla</h3></a>
+        <ul>
+           
+        
+
+            <li>
+                <a href="AUS.html">Ajouter une mussalla</a>
+              
+            </li>
+            <li>
+                <a href="FAQ.html" class="faq">FAQ</a>
+              
+            </li>
+            
+           <li>
+                <a id="download">Télécharger</a>
+              
+            </li>
+        
+           
+        </ul>
+        <div id="icons"></div>
+    </nav>
+
+    <div class="container">
+        <h1>Questions fréquentes</h1>
+
+        <div class="faq-item">
+            <h3>Qu'est-ce que cette application permet de faire ?</h3>
+            <p>L'application permet de localiser toutes les mosquées à proximité de l'utilisateur en utilisant les données de géolocalisation. Elle fournit des informations détaillées sur chaque mosquée, telles que l'adresse, les horaires de prière, et les services disponibles.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Comment puis-je télécharger l'application ?</h3>
+            <p>Vous pouvez télécharger l'application depuis les principales plateformes de distribution d'applications, comme Google Play Store pour les appareils Android et l'App Store pour les appareils iOS. Il vous suffit de rechercher le nom de l'application et de suivre les instructions de téléchargement.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>L'application est-elle gratuite ?</h3>
+            <p>Oui, l'application est gratuite à télécharger et à utiliser. Cependant, certaines fonctionnalités premium pourraient être disponibles via des achats intégrés pour améliorer votre expérience utilisateur.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Comment l'application détermine-t-elle ma position ?</h3>
+            <p>L'application utilise les services de géolocalisation de votre appareil pour déterminer votre position actuelle. Assurez-vous d'avoir activé les services de localisation et d'avoir donné la permission à l'application d'accéder à votre position.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Puis-je rechercher des mosquées dans une autre ville ou un autre pays ?</h3>
+            <p>Oui, vous pouvez entrer n'importe quelle adresse ou ville dans la barre de recherche de l'application pour trouver des mosquées dans cette région spécifique, même si vous ne vous y trouvez pas physiquement.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Que faire si je trouve des informations incorrectes sur une mosquée ?</h3>
+            <p>Si vous trouvez des informations incorrectes ou obsolètes sur une mosquée, vous pouvez nous le signaler directement via l'application. Il y a une option pour soumettre des corrections ou des mises à jour, et notre équipe vérifiera et mettra à jour les informations en conséquence.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>L'application propose-t-elle des fonctionnalités supplémentaires, comme les horaires de prière ?</h3>
+            <p>Oui, en plus de localiser les mosquées, l'application fournit les horaires de prière pour votre emplacement actuel, des notifications pour les appels à la prière, ainsi que des informations sur les événements communautaires et les services offerts par les mosquées.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Puis-je sauvegarder mes mosquées préférées ?</h3>
+            <p>Oui, l'application vous permet de sauvegarder vos mosquées préférées pour un accès rapide. Vous pouvez les ajouter à votre liste de favoris et les retrouver facilement à tout moment.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Comment l'application protège-t-elle ma vie privée ?</h3>
+            <p>La protection de votre vie privée est une priorité. L'application ne partage pas vos informations de localisation avec des tiers sans votre consentement. Les données sont utilisées uniquement pour fournir les services demandés et améliorer votre expérience utilisateur. Vous pouvez consulter notre politique de confidentialité pour plus de détails.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Comment puis-je contacter le support technique en cas de problème ?</h3>
+            <p>Si vous rencontrez des problèmes ou avez des questions supplémentaires, vous pouvez contacter notre équipe de support technique via l'onglet "Contact" sur le site web ou directement depuis l'application. Nous sommes là pour vous aider !</p>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
