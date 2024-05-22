@@ -347,5 +347,9 @@ p{
     .titles:hover{
         text-decoration: none;
     }
+
+    .qst{
+        display: flex;
+    }
     
 }
