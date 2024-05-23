@@ -170,7 +170,7 @@ nav li {
   input[type="checkbox"] {
     width: 5%;
     float: right;
-    font-size: 4px;
+    padding: 4px;
     }
   
   /* Style for form labels */
