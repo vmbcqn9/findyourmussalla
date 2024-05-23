@@ -167,7 +167,7 @@ nav li {
   /* Style for radio buttons and checkboxes */
   input[type="radio"],
   input[type="checkbox"] {
-    width: 50%;
+    width: 5%;
     float: right;
     }
   
@@ -236,16 +236,6 @@ p{
 
 
 
-.qst {
-    display: block ruby;
-    align-items: center; /* Align radio button containers vertically */
-}
-
-/* Style for radio buttons */
-.qst input[type="radio"] {
-    
-    vertical-align: middle; /* Align radio buttons vertically to the middle */
-}
 
 
 p{
@@ -348,7 +338,7 @@ p{
         text-decoration: none;
     }
 
-   
+ 
 
     
     
