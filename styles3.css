@@ -255,6 +255,11 @@ h1 {
             
             }
 
+            .container {
+    
+                box-shadow: 0 0 0 rgba(0, 0, 0, 0.1);
+            }
+
             h1{
                 background-color: rgb(136, 78, 136);
                 font-size: 30px;
@@ -274,12 +279,4 @@ h1 {
             }
             
             
-.container {
-    max-width: 800px;
-    margin: auto;
-    padding: 20px;
-   
-    margin-top: 40px;
-
-}
         }
