@@ -157,11 +157,12 @@ nav li {
   select,
   textarea {
     width: 100%;
-    padding: 12px;
+    padding: 11px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    font-size: 14px;
   }
   
   /* Style for radio buttons and checkboxes */
