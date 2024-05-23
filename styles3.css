@@ -274,4 +274,12 @@ h1 {
             }
             
             
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+   
+    margin-top: 40px;
+
+}
         }
