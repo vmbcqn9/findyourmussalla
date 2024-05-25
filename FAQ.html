@@ -7,21 +7,7 @@
 
     <title>FYM -Questions fréquentes</title>
     
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            const items = document.querySelectorAll(".faq-item h3");
-            items.forEach(item => {
-                item.addEventListener("click", () => {
-                    const content = item.nextElementSibling;
-                    if (content.style.display === "none" || !content.style.display) {
-                        content.style.display = "block";
-                    } else {
-                        content.style.display = "none";
-                    }
-                });
-            });
-        });
-    </script>
+   
 </head>
 <body>
 
@@ -29,6 +15,11 @@
         <a href="index.html" class="titles"><h3>FindYourMussalla</h3></a>
         <ul>
            
+
+            <li>
+                <a href="index.html">Accueil</a>
+              
+            </li>
         
 
             <li>
@@ -105,4 +96,19 @@
     </div>
 </body>
 <script src="script.js"></script>
+     <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const items = document.querySelectorAll(".faq-item h3");
+            items.forEach(item => {
+                item.addEventListener("click", () => {
+                    const content = item.nextElementSibling;
+                    if (content.style.display === "none" || !content.style.display) {
+                        content.style.display = "block";
+                    } else {
+                        content.style.display = "none";
+                    }
+                });
+            });
+        });
+    </script>
 </html>
