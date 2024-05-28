@@ -47,7 +47,7 @@
         <p>Cette page vous permet de soumettre une candidature pour enregistrer un lieu de prière qui sera ensuite visible dans l'application. Une fois que vous avez rempli et soumis le formulaire, votre candidature sera examinée. Vous recevrez ensuite une réponse par e-mail confirmant ou non l'inscription du lieu de prière.</p>
     </div>
     <div id="formulaire">
-        <form action="https://autoexpress.site/process_form.php" method="post">
+        <form action="" method="post">
         
             <!-- Text input for the user's name -->
             <div id="inforesp">
@@ -66,6 +66,12 @@
             <label for="email"></label>
             <input type="email" id="email" name="email" placeholder="Email"required>
             <br>
+
+            <div id="drop-zone">
+              <h4>Ajouter une piece d'identité (format png ou jpg)</h4>
+              <p>Glisser et déposer un fichier ici ou cliquer ici pour selectionner un fichier</p>
+              <input type="file" id="file-input" name="files[]" multiple hidden>
+          </div>
            
 </div>
 <div id="infolieu">
@@ -416,4 +422,6 @@
 </body>
 <script src="https://kit.fontawesome.com/6d7557d03a.js" crossorigin="anonymous"></script>
 <script src="script.js"></script>
+<script src="script2.js"></script>
+
 </html>
