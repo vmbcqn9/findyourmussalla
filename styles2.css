@@ -245,6 +245,29 @@ p{
 }
 
 
+
+#drop-zone {
+    width: 100%;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border: 2px dashed #ccc;
+    border-radius: 5px;
+    text-align: center;
+    color: #999;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+#drop-zone:hover {
+    background-color: #f0f0f0;
+    border-color: #333;
+}
+
+#drop-zone.dragover {
+    background-color: #e0e0e0;
+    border-color: #666;
+}
+
 /****************** MediaScreen ******************/
 
 @media (max-width:900px){
